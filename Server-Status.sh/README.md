@@ -1,7 +1,7 @@
 
 # **Server-Status Checker**
 
-a bash script on any Linux server for analysing server performance stats. unfinished!
+a bash script on any Linux server for analysing server performance stats. **unfinished!**
 
 ---
 
