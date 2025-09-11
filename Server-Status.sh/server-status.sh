@@ -40,6 +40,12 @@ echo "All users : " ; w | tail -n +2
 
 echo
 
+#echo "=================================="
+#echo "#      Failed Login Attempts     #"
+#echo "=================================="
+
+#echo
+
 #Total CPU usage
 echo "==================="
 echo "#    CPU Usage    #"
