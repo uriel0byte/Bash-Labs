@@ -10,7 +10,7 @@ a bash script on any Linux server for analysing server performance stats.
 
 2.Make the script executable
 ```bash
-sudo chmod +x server-status.sh
+sudo chmod +x server-stats.sh
 ```
 
 3.Execute the script
