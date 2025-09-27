@@ -18,6 +18,7 @@ echo "====================="
 echo -n "Host Name : " ; hostname
 echo -n "Kernel Version : " ; uname -r
 echo -n "OS : " ; cat /etc/os-release | cut -d '"' -f2 | head -1
+# Total Packages and Package Manager 
 if command -v apt &> /dev/null; then
     PKG_COUNT=$(apt list --installed 2>/dev/null | grep -c '^')
     echo "Packages : $PKG_COUNT (Package Manager: apt)"
