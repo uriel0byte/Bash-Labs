@@ -85,7 +85,7 @@ echo
 
 # Last System Update by AI
 echo "====================="
-echo "# Last System Updat #"
+echo "# Last System Update#"
 echo "====================="
 if [ -f /var/log/apt/history.log ]; then
     echo -n "Last apt update: "; grep -i start-date /var/log/apt/history.log | tail -1 | cut -d' ' -f2-
