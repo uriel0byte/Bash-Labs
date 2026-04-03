@@ -50,7 +50,7 @@ The unit file is created in `/etc/systemd/system/`, the standard directory for a
 ```Ini
 [Unit]
 Description=SOC Training - Dummy Persistence Service
-After=network.target
+After=network.target # Ensures the system doesn't try to start this service before the networking subsystem is up
 
 [Service]
 Type=simple
@@ -60,7 +60,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
-- [Unit]: Metadata. `After=` ensures the system doesn't try to start this service before the networking subsystem is up.
+- [Unit]: Metadata.
 - [Service]: Execution logic.
 
 *Security Context:* The `ExecStart` directive reveals the exact path of the payload. When you are analyzing a suspicious service, `ExecStart` is the very first thing you check—it tells you exactly what malicious payload is being detonated. The` WantedBy` directive under `[Install]` is what allows the service to achieve reboot persistence when enabled. `Restart=always` ensures the process respawns even if forcefully killed. From a Blue Team perspective, this exact line is how an attacker achieves reboot persistence.
