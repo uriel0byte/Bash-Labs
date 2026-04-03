@@ -2,6 +2,7 @@
 https://roadmap.sh/projects/dummy-systemd-service
 
 *Note: I asked an AI to help me modified this to apprach a Blue Team scenario.*
+
 *Original Goal: The goal of this project is to get familiar with systemd; creating and enabling a service, checking the status, keeping an eye on the logs, starting and stopping the service, etc.*
 
 ## Objective
