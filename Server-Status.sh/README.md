@@ -1,19 +1,19 @@
 
 # **Server Performance Stats**
 
-a bash script on any Linux server for analysing server performance stats.
+A bash script on any Linux server for analysing server performance stats.
 
 ---
 
 ## **Usage**
-1.Get the scripts by downloading or copying
+1. Get the scripts by downloading or copying
 
-2.Make the script executable
+2. Make the script executable
 ```bash
 sudo chmod +x server-stats.sh
 ```
 
-3.Execute the script
+3. Execute the script
 ```bash
 bash server-stats.sh
 ```
