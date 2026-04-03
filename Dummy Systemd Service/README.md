@@ -4,7 +4,7 @@ https://roadmap.sh/projects/dummy-systemd-service
 ## Objective
 This project demonstrates the creation, management, and monitoring of a custom systemd daemon in Linux. While originally a system administration exercise, this lab is approached from a **Blue Team / SOC perspective** to understand how threat actors establish boot persistence and how analysts can hunt for these anomalies using native Linux logging.
 
-## 🛠️ Concepts Covered
+## Concepts Covered
 * **Linux Filesystem Hierarchy Standard (FHS):** Proper placement of local executables.
 * **Systemd Configuration:** Writing `.service` unit files, managing `ExecStart`, and configuring `Restart` parameters.
 * **Boot Persistence:** Utilizing `systemctl enable` to hook a service into `multi-user.target`.
