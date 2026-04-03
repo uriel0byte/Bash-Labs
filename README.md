@@ -1,5 +1,4 @@
 # Bash Labs
-Just Bash Scripts.
 This project is part of roadmap.sh DevOps projects.
 
 ---
