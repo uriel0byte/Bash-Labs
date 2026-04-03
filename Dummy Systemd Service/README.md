@@ -1,5 +1,5 @@
 # Systemd Service Persistence & Blue Team Telemetry
-https://roadmap.sh/projects/dummy-systemd-service
+[https://roadmap.sh/projects/dummy-systemd-service](https://roadmap.sh/projects/dummy-systemd-service)
 
 ## Objective
 This project demonstrates the creation, management, and monitoring of a custom systemd daemon in Linux. While originally a system administration exercise, this lab is approached from a **Blue Team / SOC perspective** to understand how threat actors establish boot persistence and how analysts can hunt for these anomalies using native Linux logging.
