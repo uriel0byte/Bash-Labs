@@ -60,8 +60,9 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
-- [Unit]: Metadata.
-- [Service]: Execution logic.
+
+- `[Unit]`: Metadata
+- `[Service]`: Execution logic.
 
 *Security Context:* The `ExecStart` directive reveals the exact path of the payload. When you are analyzing a suspicious service, `ExecStart` is the very first thing you check—it tells you exactly what malicious payload is being detonated. The` WantedBy` directive under `[Install]` is what allows the service to achieve reboot persistence when enabled. `Restart=always` ensures the process respawns even if forcefully killed. From a Blue Team perspective, this exact line is how an attacker achieves reboot persistence.
 
