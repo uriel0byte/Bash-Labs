@@ -4,5 +4,5 @@ This project is part of roadmap.sh DevOps projects.
 
 ---
 
-Server-Status: https://roadmap.sh/projects/server-stats
-Dummy Systemd: https://roadmap.sh/projects/dummy-systemd-service
+- Server-Status: https://roadmap.sh/projects/server-stats
+- Dummy Systemd: https://roadmap.sh/projects/dummy-systemd-service
