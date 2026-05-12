@@ -38,7 +38,7 @@ echo -n "Default Gateway : "; ip route | awk '/default/ {print $3}'
 
 echo
 
-# Open Ports / Listening Services by AI
+# Open Ports / Listening Services
 #echo "==============================="
 #echo "#  Open Ports / Listening      #"
 #echo "==============================="
